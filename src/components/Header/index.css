@@ -1,0 +1,159 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding: 15px 29px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10%;
+    
+}
+
+.linkk {
+    display: flex;
+    padding: 0px 10px;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.linkk li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 9px;
+    padding: 0px 15px;
+}
+
+.linkk li:last-child {
+    padding-right: 0px;
+}
+
+.linkk li p {
+    margin: 0px auto;
+    white-space: nowrap;
+}
+
+.search-box {
+    width: 100%;
+    height: 32px;
+    background: #EFEDED;
+    border: 1px solid rgba(217, 217, 217, 0.32);
+    border-radius: 15px;
+    outline: none;
+    padding: 0px 15px;
+}
+
+.search-container {
+    width: 32%;
+}
+
+.sell-your-work-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    padding: 7.5px 34.4px;
+    white-space: nowrap;
+    background: #FFFFFF;
+    border: 1px solid rgba(217, 217, 217, 0.44);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.sell-your-work-button:hover {
+    background-color: #ed6940;
+    color: white;
+}
+
+.profile-pic {
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+.fa-user-group,
+.fa-bell {
+    font-size: 26px;
+}
+
+.fa-user-group:hover,
+.fa-bell:hover {
+    color: #ed6940;
+}
+.fa-share-all{
+    display: none;
+}
+.small-nav{
+    display: none;
+}
+@media (max-width: 991.98px) {
+    .logo {
+        margin-right: 5%;
+    }
+
+    .nav-bar {
+        padding: 10px 2%;
+    }
+
+    .sell-your-work-button {
+        font-size: 10px;
+        padding: 6.5px 20.4px;
+    }
+    .search-box{
+        height: 28px;
+    }
+    .fa-user-group, .fa-bell {
+        font-size: 20px;
+    }
+    .linkk li{
+        padding: 0px 10px;
+    }
+}
+@media (max-width: 767.98px) { 
+    .sell-your-work-button {
+        font-size: 8px;
+        padding: 6.5px 14.4px;
+    }
+    .fa-user-group, .fa-bell {
+        font-size: 15px;
+    }
+    .linkk li {
+        padding: 0px 6px;
+    }
+    .profile-pic {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width: 575.98px) { 
+    .search-container{
+        display: none;
+    }
+    .logo{
+        margin-right: 2%;
+    
+    }
+    .linkk{
+        width: 70%;
+    }
+    .small-nav{
+        display: flex;
+    }
+}

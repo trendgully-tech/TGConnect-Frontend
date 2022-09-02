@@ -1,0 +1,95 @@
+.main-container {
+    background-image: url('../../../public/coverPic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 328px;
+    height: 512px;
+    border-radius: 10px;
+    
+}
+
+.info-card {
+    margin-top: 80.84px;
+    height: 431.16px;
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+}
+
+.profile-picc {
+    width: 105.54px;
+    height: 105.54px;
+    border-radius: 50%;
+    border: 8px solid #FFFFFF;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    left: 34%;
+    top: -49px;
+}
+
+.profile-picc img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile-user-name h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.profile-user-name p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    /* or 145% */
+    text-align: center;
+    color: #ED6940;
+}
+
+.profile-user-name {
+    top: 87.18px;
+    position: relative;
+}
+
+.profile-info-list {
+    position: relative;
+    top: 146.68px;
+    list-style: none;
+    padding: 0 43px;
+}
+
+.profile-info-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25.9px;
+
+}
+
+.profile-info-list li h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    /* or 127% */
+    color: #3A3033;
+}
+.profile-info-list li p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 14px;
+/* or 127% */
+color: #ED6940;
+}

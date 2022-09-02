@@ -1,0 +1,22 @@
+.connection-main-container{
+    margin-top:32px;
+    
+}
+/* .feed{
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .feed{
+    height: 100vh;
+
+} */
+.test-p{
+    margin-bottom: 100px;
+
+}
+.feed-list{
+    height: 85vh;
+    overflow: auto;
+}

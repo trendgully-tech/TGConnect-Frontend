@@ -1,0 +1,51 @@
+.heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+.sub-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+.discover-designer{
+    margin-top:64px;
+    margin-bottom: 56px;
+}
+.card-container{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.heading-container{
+    margin-bottom: 64px;
+}
+@media (max-width: 991.98px) { 
+    .discover-designer {
+        margin-top: 54px;
+        margin-bottom: 46px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .sub-heading{
+        font-size: 14px;
+    }
+    .heading-container {
+        margin-bottom: 54px;
+    }
+ }
+ @media (max-width: 767.98px) { 
+    .discover-designer {
+        margin-top: 44px;
+        margin-bottom: 36px;
+    }
+    .heading-container {
+        margin-bottom: 44px;
+    }
+  }
